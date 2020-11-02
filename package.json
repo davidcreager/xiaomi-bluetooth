@@ -1,0 +1,31 @@
+{
+  "name": "Xiaomi-Bluetooth-TempSensor",
+  "version": "1.0.1",
+  "description": "Xiaomi Mi Bluetooth Temperature and Humidity Sensor",
+  "main": "index.js",
+  "author": "David Creager",
+  "license": "MIT",
+  "keywords": [
+    "xiaomi",
+    "temperature",
+    "humidity",
+    "bluetooth"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/davidcreager/Xiaomi-Bluetooth-TempSensor"
+  },
+  "files": [
+    "index.js",
+    "config.json",
+    "src/"
+  ],
+  "engines": {
+    "node": ">=10.0.0"
+  },
+  "dependencies": {
+    "@abandonware/noble": "^1.9.2-9",
+    "chalk": "^4.1.0",
+    "mqtt": "^3.0.0"
+  }
+}
